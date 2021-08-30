@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+# Exemplo componente React Js Color Picker
+O React é melhor para a criação de aplicativos de página única ou móveis; Módulos de interface do usuário são conhecidos como componentes no React. Os componentes são usados ​​para renderizar elementos específicos no Dom com a ajuda da biblioteca React DOM.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Hoje, este exemplo de seletor de cores React ajudará você a aprender como criar um seletor de cores no aplicativo React js usando a biblioteca CSS react-color e bootstrap.
+Um seletor de cores é um widget de interface do usuário, idealmente visto em aplicativos gráficos, alguns sites para escolher cores. Raramente é usado para gerar paletas de cores; um seletor de cores é melhor usado para ajustar os valores das cores e editar imagens. Neste tutorial, mostraremos como implementar um seletor de cores em react.
 
-## Available Scripts
+# Como Criar o Componente Seletor de Cores React
 
-In the project directory, you can run:
+Etapa 1: Criar um projeto novo
+npx create-react-app (Nome do Projeto)
+https://www.youtube.com/watch?v=SSKUpuqHcSc&list=PLb8jL9jtpafkJAs5U5bc1lgmHIE6c_OK_&index=175
 
-### `yarn start`
+Etapa 2: Abrindo o projeto criado.
+cd (Nome do projeto)
+https://www.youtube.com/watch?v=JE1JZ5Udx38&list=PLb8jL9jtpafkJAs5U5bc1lgmHIE6c_OK_&index=175
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Etapa  : Adicionar pacote de seletor de cores
+Em seguida, você deve executar o comando para adicionar o pacote do seletor de cores react; certifique-se de invocar o comando fornecido abaixo.
+npm install react-color
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+# Bootstrap
+yarn add bootstrap
+# reactCSS
+npm install reactcss --save
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Para visualizar o projeto, click no link
+https://color-picker-react-js.netlify.app/# Color_Picker_React_Js
